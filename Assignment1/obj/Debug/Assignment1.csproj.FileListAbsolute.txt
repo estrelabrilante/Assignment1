@@ -5,3 +5,6 @@ C:\Users\Shynu Mary Varghese\source\repos\Assignment1\Assignment1\obj\Debug\Assi
 C:\Users\Shynu Mary Varghese\source\repos\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
 C:\Users\Shynu Mary Varghese\source\repos\Assignment1\Assignment1\obj\Debug\Assignment1.exe
 C:\Users\Shynu Mary Varghese\source\repos\Assignment1\Assignment1\obj\Debug\Assignment1.pdb
+C:\Users\Shynu Mary Varghese\source\repos\Assignment1\Assignment1\bin\Debug\nunit.framework.dll
+C:\Users\Shynu Mary Varghese\source\repos\Assignment1\Assignment1\bin\Debug\nunit.framework.xml
+C:\Users\Shynu Mary Varghese\source\repos\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.CopyComplete

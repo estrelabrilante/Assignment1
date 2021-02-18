@@ -23,7 +23,7 @@ namespace Assignment1
         }
         public int GetLength()
         {
-            return length;
+            return length; ;
         }
         public int SetLength(int length)
         {
