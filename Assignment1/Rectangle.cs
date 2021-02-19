@@ -12,23 +12,25 @@ namespace Assignment1
         private int length, width; // private integer attributes
         public Rectangle()// default constructor
         {
-            length = 1; //set length and width as 1
-            width = 1;
+           length = 1; //set length and width as 1
+           width = 1;
         }
         public Rectangle(int lengt, int widt) //non default constructor
         {
-            this.length = lengt;
-            this.width = widt;
+            length = lengt;
+            width = widt;
 
         }
         public int GetLength()
         {
-            return length; ;
+            //  return this.length; 
+            return length;
         }
         public int SetLength(int length)
         {
 
-            return length;
+            // return length;
+            return this.length = length;
         }
         public int GetWidth()
         {
@@ -36,7 +38,8 @@ namespace Assignment1
         }
         public int SetWidth(int width)
         {
-            return width;
+            //  return width;
+            return this.width = width;
 
         }
         public int GetPerimeter()
