@@ -16,11 +16,18 @@ namespace Test
         [Test]
         public void GetLengthTest()
         {          
-            int i = 5; //Arrange 
+            int i = 1; //Arrange 
             int result = r.GetLength(); //Act
             Assert.AreEqual(i, result, 1);//Assert
 
         }
+        public void GetLengthTest2()
+        {
+            int l = 9;    //Arrange 
+            int result = r.GetWidth(); //Act
+            Assert.AreNotEqual(l, result); //Assert
+        }
+
         [Test]
         public void SetLengthTest()
         {
@@ -32,7 +39,7 @@ namespace Test
         [Test]
         public void GetWidthTest()
         {         
-            int j = 6;//Arrange 
+            int j = 1;//Arrange 
             int result = r.GetWidth();//Act
             Assert.AreEqual(j, result, 1); //Assert
         }
@@ -64,7 +71,7 @@ namespace Test
         public void GetPerimeterTest()
         {
            
-            int p = 22; //Arrange 
+            int p = 4; //Arrange 
             int result = r.GetPerimeter(); //Act
             Assert.AreEqual(p, result, 1); //Assert
         }
@@ -94,12 +101,10 @@ namespace Test
                 //Act
                 int result1 = r.GetArea();
                 //Assert
-                Assert.AreNotEqual(1, result1);
+                Assert.AreNotEqual(2, result1);
 
             }
              
-
-
         }
     } 
 
